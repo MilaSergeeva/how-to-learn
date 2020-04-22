@@ -26,8 +26,11 @@
   height: 32px;
   width: 183px;
   overflow: visible;
-  margin: 30px 0 0 64px;
-  
+  /* margin: 30px 0 0 64px; */
+  top: 30px;
+  left: 64px;
+  margin: 0;
+
 }
 
 .header__title {
