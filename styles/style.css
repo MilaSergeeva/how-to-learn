@@ -187,13 +187,12 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 867px 637px;
-  overflow: auto;
-  /* посмотреть */
+  padding-top: 100px;
 }
 
 .feinman__title {
   width: 648px;
-  margin: 100px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-weight: bolder;
   font-size: 102px;
   text-align: center;
