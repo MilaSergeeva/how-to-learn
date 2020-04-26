@@ -31,11 +31,6 @@
   z-index: 200;
 }
 
-.logo__header-img {
-  height: 100%;
-  width: 100%;
-}
-
 .header__title {
   display: flex;
   margin: 0 0 0 64px;
@@ -316,9 +311,10 @@
   width: 183px;
 }
 
-.logo__footer-img {
+.logo__img {
   height: 100%;
   width: 100%;
+  
 }
 
 .footer__author {
