@@ -75,7 +75,6 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
-  
 }
 
 
@@ -311,10 +310,10 @@
   width: 183px;
 }
 
+/* св-во для .logo__img доьавлено по согласованию с наставником. Размер картинки выходит на 1px больше */
 .logo__img {
   height: 100%;
   width: 100%;
-  
 }
 
 .footer__author {
