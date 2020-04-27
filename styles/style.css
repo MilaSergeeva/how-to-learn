@@ -24,11 +24,14 @@
 
 .logo_place_header {
   position: absolute;
-  height: 32px;
-  width: 183px;
   top: 30px;
   left: 64px;
   z-index: 200;
+}
+
+.logo__img-header {
+  height: 32px;
+  width: 183px;
 }
 
 .header__title {
@@ -305,15 +308,12 @@
   margin: 0;
 } 
 
-.logo_place_footer {
-  height: 35px;
-  width: 183px;
-}
+
 
 /* св-во для .logo__img доьавлено по согласованию с наставником. Размер картинки выходит на 1px больше */
-.logo__img {
-  height: 100%;
-  width: 100%;
+.logo__img-footer {
+  height: 35px;
+  width: 183px;
 }
 
 .footer__author {
