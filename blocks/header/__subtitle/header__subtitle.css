@@ -9,3 +9,18 @@
   font-weight: normal;
   z-index: 200;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    left: 50px;
+}
+}
+
+  @media screen and (max-width: 780px) {
+    .header__subtitle {
+      font-size: 16px;
+      line-height: 1;
+      max-width: 50%;
+      left: 20px;
+  }
+}

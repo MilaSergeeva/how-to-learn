@@ -1,7 +1,21 @@
 .cards__description {
     margin: 0 0;
-    line-height: 23px;
+    line-height: 1.37;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
   }
+
+  @media screen and (max-width: 1024px) {
+    .cards__description {
+      font-size: 16px;
+        
+    }
+}
+
+@media screen and (max-width: 780px) {
+  .cards__description {
+    font-size: 14px;
+      
+  }
+}

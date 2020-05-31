@@ -6,3 +6,17 @@
     margin: 0;
   } 
   
+  @media screen and (max-width:1280px) {
+    .footer__column_content_copyright {
+      /* flex-basis: 55.5vw; */
+      flex-basis: 50%;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .footer__column_content_copyright {
+      flex-basis: 0%;
+      
+      
+    }
+  } 

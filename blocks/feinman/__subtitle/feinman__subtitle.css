@@ -1,7 +1,19 @@
 .feinman__subtitle {
     margin: 70px auto 0 auto;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 1.4;
     text-align: center;
     line-height: 51px;
+    padding-bottom: 313px;
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .feinman__subtitle {
+        font-size: 3.5vw;
+        margin: 70px 15px 0 auto;
+        text-align: start;
+        max-width: 54vw;
+        padding-bottom: 30.6vw;
+    }
   }

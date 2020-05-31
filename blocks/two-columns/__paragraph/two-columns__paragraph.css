@@ -9,3 +9,10 @@
   .two-columns__paragraph:last-child {
     margin: 0;
   }
+
+  @media screen and (max-width: 1024px) {
+    .two-columns__paragraph {
+      padding: 0 20px;
+      font-size: 18px;
+    }
+}

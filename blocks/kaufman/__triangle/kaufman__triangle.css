@@ -3,7 +3,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 877px; 
-    width: 877px;
+    max-width: 877px;
     position: absolute;
     right: -210px;
     top: 0;

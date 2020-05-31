@@ -1,8 +1,29 @@
 .cards__item {
-    width: 240px;
-    margin-right: 100px;
+    max-width: 240px;
+    margin: 16px 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* text-align: center; */
 }
 
-.cards__item:nth-child(3n) {
+/* .cards__item:nth-child(3n) {
     margin-right: 0;
+} */
+
+
+@media screen and (max-width: 1024px) {
+    .cards__item {
+        margin: 16px 40px;
+        max-width: 24%;
+        
+
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cards__item {
+        margin: 16px 20px;
+        max-width: 27%;
+    }
 }

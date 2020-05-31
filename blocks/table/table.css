@@ -7,7 +7,14 @@
 .table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0 auto 100px auto;
     max-width: 1100px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .table {
+      padding: 0 15px;
+      margin: 0 auto 70px auto;
+    }
   }

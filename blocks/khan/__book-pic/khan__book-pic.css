@@ -6,3 +6,13 @@
     object-position: left top;
     
 }
+
+@media screen and (max-width: 1024px) {
+    .khan__book-pic {
+        width: 61vw;
+        height: 59vw;
+        margin-right: 4.7vw;
+    }
+  }
+  
+ 

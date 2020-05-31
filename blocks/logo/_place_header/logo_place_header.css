@@ -3,6 +3,20 @@
     top: 30px;
     left: 64px;
     z-index: 200;
-    height: 32px;
-    width: 183px
+    box-sizing: border-box;
+    max-width: 183px;
   }
+
+  @media screen and (max-width: 1024px) {
+    .logo_place_header {
+      left: 50px;
+      
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .logo_place_header {
+    left: 20px;
+    width: 138px;
+}
+}

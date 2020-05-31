@@ -1,12 +1,29 @@
-
-
 .header__square-pic {
     position: absolute;
-    top: 64px;
+    bottom: 5vw;
     right: 0;
     background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
+    max-height: 44vw;
+    max-width: 44vw;
     transform: rotate(-15deg); 
     
   }
+
+
+  /* @media screen and (max-width: 1024px) {
+    .header__square-pic {
+      bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .header__square-pic {
+    bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__square-pic {
+    bottom: 700px;
+  }
+} */

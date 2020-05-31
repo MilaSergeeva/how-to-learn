@@ -7,3 +7,12 @@
     line-height: 1.15;
   }
   
+
+  @media screen and (max-width:1024px) {
+    .feinman__title {
+        font-size: 10vw;
+        margin: 0 15px 0 auto;
+        text-align: start;
+        max-width: 54vw;
+    }
+  }
