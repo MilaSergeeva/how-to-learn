@@ -3,7 +3,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  line-height: 25px;
+  line-height: 1.4;
   font-size: 18px;
   margin: 0;
   font-weight: normal;
@@ -19,17 +19,15 @@
   @media screen and (max-width: 780px) {
     .header__subtitle {
       font-size: 16px;
-      line-height: 1;
-      max-width: 50%;
+      max-width: 55%;
       left: 20px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .header__subtitle {
-    font-size: 14px;
-    line-height: 1;
-    max-width: 55%;
+    font-size: 12px;
+    max-width: 50%;
     
 }
 }
