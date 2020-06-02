@@ -5,5 +5,12 @@
     max-height: 608px;
     max-width: 60vw;
     z-index: 100;
-    
   }
+
+
+  @media screen and (max-width: 450px) {
+    .header__main-illustration {
+      background-position: -30px bottom;
+      width: 200px;
+    }
+  } 

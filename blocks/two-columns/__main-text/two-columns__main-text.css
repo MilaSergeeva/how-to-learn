@@ -2,3 +2,9 @@
     width: 80%;
     max-width: 784px;
   }
+
+  @media screen and (max-width: 730px) {
+    .two-columns__main-text {
+      width: 100%;
+    }
+  }

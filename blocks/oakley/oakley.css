@@ -4,3 +4,16 @@
     padding-top: 160px;
     background-color: #f2f2f2;
 }
+
+
+@media screen and (max-width:1024px) {
+    .oakley {
+        padding-top: 130px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .oakley {
+        padding-top: 110px;
+    }
+}

@@ -9,9 +9,16 @@
     text-align: center;
   }
 
-  @media screen and (max-width:780px) {
+  @media screen and (max-width:620px) {
     .section-subtitle {
-        font-size: 3.1vw;
+        font-size: 20px;
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .section-subtitle {
+        font-size: 16px;
         
     }
   }

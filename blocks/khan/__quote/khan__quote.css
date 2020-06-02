@@ -12,3 +12,10 @@
         font-size: 2.34vw;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .khan__quote {
+        
+        font-size: 16px;
+    }
+  }

@@ -13,3 +13,9 @@
         margin: 0 0 6.6vw 0;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .khan__quote-author-subline {
+        font-size: 12px;
+    }
+  }

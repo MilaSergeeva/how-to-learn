@@ -1,6 +1,6 @@
 .cards__item {
-    max-width: 240px;
-    margin: 16px 50px;
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -12,7 +12,7 @@
 } */
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .cards__item {
         margin: 16px 40px;
         max-width: 24%;
@@ -26,4 +26,4 @@
         margin: 16px 20px;
         max-width: 27%;
     }
-}
+} */

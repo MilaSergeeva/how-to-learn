@@ -11,9 +11,25 @@
     z-index: 200;
   }
 
+  @media screen and (max-width:1024px) {
+    .section-title {
+        margin: 9.8vw auto 15px auto;
+        width: 80%;
+    }
+  }
+
+
 @media screen and (max-width:780px) {
   .section-title {
       font-size: 7.7vw;
       margin: 50px auto 15px auto;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .section-title {
+      font-size: 30px;
+      margin: 30px auto 15px auto;
+      width: 90%;
   }
 }
