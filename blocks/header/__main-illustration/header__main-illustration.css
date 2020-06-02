@@ -8,9 +8,23 @@
   }
 
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 550px) {
     .header__main-illustration {
-      right: -50;
-      width: 250px;
+      width: 70vw;
+      overflow: hidden;
+      clip-path: polygon( 0% 0%, 70% 0%, 70% 100%, 0% 100%);
+      -moz-transform: scale(-1, 1);
+      -webkit-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      transform: scale(-1, 1);
+      right: -20px;
+      bottom: 0;
+    }
+  } 
+
+  @media screen and (max-width: 350px) {
+    .header__main-illustration {
+      width: 280px;
+      
     }
   } 

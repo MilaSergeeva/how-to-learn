@@ -3,10 +3,9 @@
     bottom: 5vw;
     right: 0;
     background-color: #2f80ed;
-    max-height: 44vw;
-    max-width: 44vw;
+    height: 44vw;
+    width: 44vw;
     transform: rotate(-15deg); 
-    
   }
 
 
@@ -27,3 +26,12 @@
     bottom: 700px;
   }
 } */
+
+@media screen and (max-width: 350px) {
+  .header__square-pic {
+    height: 200px;
+    width: 200px;
+    bottom: 15px;
+    right: -30px;
+  }
+}
