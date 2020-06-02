@@ -1,6 +1,4 @@
-
 @import url(./__triangle/kaufman__triangle.css);
-
 
 .kaufman {
     position: relative;
@@ -8,4 +6,5 @@
     display: block;
     overflow: hidden;
     margin: 0;
+    z-index: 0;
   }

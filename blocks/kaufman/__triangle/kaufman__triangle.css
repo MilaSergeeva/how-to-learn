@@ -3,7 +3,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 877px; 
-    max-width: 877px;
+    width: 877px;
     position: absolute;
     right: -210px;
     top: 0;
@@ -11,9 +11,17 @@
     overflow: visible;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 780px) {
     .kaufman__triangle {
-      
+      height: 789px; 
+      width: 789px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .kaufman__triangle {
+      height: 613px; 
+      width: 613px;
     }
   }
   

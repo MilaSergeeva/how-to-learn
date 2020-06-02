@@ -16,10 +16,10 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 780px) {
   .two-columns__paragraph {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

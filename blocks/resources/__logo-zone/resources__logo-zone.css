@@ -32,7 +32,7 @@
     .resources__logo-zone {
         grid-template-columns: 1fr 1fr;
         max-width: 550px;
-        grid-gap: 30px;
+        grid-gap: 40px;
         grid-template-rows: repeat(2, 40px);
         
     }
