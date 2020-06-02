@@ -4,7 +4,8 @@
     /* width: 515px; */
     height: 100%;
     width: 100%;
-    
+    overflow: hidden;
+    object-fit: fill;
 }
 
 /* .video__iframe:last-child {

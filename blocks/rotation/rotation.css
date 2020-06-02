@@ -1,4 +1,4 @@
-/* @keyframes rotation {
+@keyframes rotation {
     from {
         transform: rotate(-15deg);
     }
@@ -8,4 +8,4 @@
 }
 .rotation {
     animation: rotation 20s linear infinite;
-} */
+}

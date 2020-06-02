@@ -17,12 +17,22 @@
 .video__iframes {
     margin: 50px 13% -45px 13%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 50% 50%;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     /* justify-content: center; */
-    height: 22vw;
+    height: 300px;
     /* flex-wrap: wrap; */
     grid-gap: 30px;
     /* justify-content: center; */
+    overflow: hidden;
+}
+
+@media screen and (max-width:1280px) {
+    .video__iframes {
+        height: 22vw;
+        
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -39,5 +49,16 @@
         margin: 50px auto -45px auto;
         width: 60vw;
         height: 70vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .video__iframes {
+        margin: 30px auto -45px auto;
+        width: 70vw;
+        height: 80vw;
+        
     }
 }
