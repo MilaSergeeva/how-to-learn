@@ -10,7 +10,6 @@
     margin: 0 auto 0 auto;
     grid-gap: 30px;
     padding: 0 20px;
-    /* justify-content: center; */
 }
 
 @media screen and (max-width: 500px) {
@@ -22,23 +21,3 @@
 
 
 
-/* .cards {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1050px;
-    margin: 0 auto 0 auto;
-    
-
-@media screen and (max-width: 1024px) {
-    .cards {
-            padding: 0 40px;   
-
-        
-    }
-}
-
-@media screen and (max-width: 780px) {
-    .cards {
-        padding: 0 2.5vw;
-    }
-}

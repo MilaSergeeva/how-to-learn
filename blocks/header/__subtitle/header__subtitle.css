@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
   .header__subtitle {
     left: 50px;
-}
+  }
 }
 
   @media screen and (max-width: 780px) {
@@ -27,7 +27,6 @@
 @media screen and (max-width: 550px) {
   .header__subtitle {
     font-size: 12px;
-    max-width: 50%;
-    
-}
+    max-width: 50%;    
+  }
 }

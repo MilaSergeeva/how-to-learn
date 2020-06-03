@@ -7,12 +7,6 @@
     font-weight: normal;
   }
 
-  @media screen and (max-width: 1024px) {
-    .two-columns__brief {
-      /* padding: 0 20px;
-      font-size: 16px; */
-    }
-}
 
 @media screen and (max-width: 780px) {
   .two-columns__brief {

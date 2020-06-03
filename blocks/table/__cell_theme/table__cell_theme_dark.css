@@ -6,7 +6,6 @@
 
   @media screen and (max-width: 1024px) {
     .table__cell_theme_dark {
-      /* width: 21.5vw; */
       margin: 40px auto 0 auto;;
     }
   }
@@ -17,8 +16,4 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
-    .table__cell_theme_dark {
-      
-    }
-  }
+  

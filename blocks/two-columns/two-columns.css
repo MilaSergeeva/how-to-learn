@@ -17,10 +17,10 @@
     .two-columns {
       width: 90%;
     }
-}
-
-@media screen and (max-width:730px) {
-  .two-columns {
-    flex-direction: column;
   }
-}
+
+  @media screen and (max-width:730px) {
+    .two-columns {
+      flex-direction: column;
+    }
+  }

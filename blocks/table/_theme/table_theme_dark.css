@@ -2,5 +2,5 @@
     margin: 50px auto;
     position: relative;
     z-index: 200;
-    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }

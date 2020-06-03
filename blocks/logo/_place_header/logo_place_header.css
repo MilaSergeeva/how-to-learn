@@ -10,7 +10,6 @@
   @media screen and (max-width: 1024px) {
     .logo_place_header {
       left: 50px;
-      
   }
 }
 
@@ -18,5 +17,5 @@
   .logo_place_header {
     left: 20px;
     width: 138px;
-}
+  }
 }
