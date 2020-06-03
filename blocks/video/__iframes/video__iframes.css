@@ -26,7 +26,7 @@
         margin: 50px auto -45px auto;
         width: 60vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 70vw 70vw;
+        grid-template-rows: 40vw 40vw;
     }
 }
 
